@@ -30,9 +30,9 @@ public class HeadOrTails {
         System.out.println("Heads: " + headsCount + ",Tails: " + tailsCount);
 
         if (headsCount > tailsCount) {
-            System.out.println("You won");
+            System.out.println(name + " won!");
         } else {
-            System.out.println("You lost");
+            System.out.println(name + " lost");
         }
     }
 }
